@@ -1,0 +1,23 @@
+main{
+    text-align: center;
+}
+.container h1{
+    font-size: 32px;
+    color: white;
+    font-style:italic;
+}
+
+.button-container button{
+    font-size: 20px;
+    padding: 15px 18px 15px 18px;
+    border: none;
+    color: white;
+    background-color:crimson;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 2px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 0 5px 4px crimson;
+}

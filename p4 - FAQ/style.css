@@ -1,0 +1,48 @@
+.question-text{
+    display: none;
+}
+.show-text .question-text{
+    display: block;
+}
+.minus-icon{
+    display: none;
+}
+.show-text .minus-icon{
+    display: initial;
+}
+.show-text .plus-icon{
+    display: none;
+}
+
+.questions{
+    text-align: center;
+}
+
+.title h2{
+    font-size: 32px;
+    font-style: oblique;
+    color: darkorchid;
+}
+
+.question-title p{
+    font-size: 23px;
+    color: darksalmon;
+}
+
+.question-btn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    background-color: violet;
+    cursor: pointer;
+}
+
+.fa-plus-square-o, .fa-minus-square-o{
+    font-size: 20px;   
+}
+
+.question-text p{
+    font-size: 20px;
+    color:cadetblue    
+}

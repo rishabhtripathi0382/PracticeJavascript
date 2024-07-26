@@ -1,0 +1,32 @@
+header{
+    text-align: center;
+}   
+.nav-center h1{
+    font-size: 25px;
+    color: blueviolet;
+}
+.nav-links li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.nav-links li a{
+    color:chocolate;
+}
+main{
+    text-align: center;
+}
+.container h2{
+    font-size: 23px;
+    color: crimson;
+}
+#btn{
+    padding: 12px 15px 12px 15px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#btn:hover{
+    box-shadow: 0 0 10px 1px black;
+}

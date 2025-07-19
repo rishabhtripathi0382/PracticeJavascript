@@ -35,26 +35,22 @@ function deleteItem(index){
 }
 
 
+
 //1 .Write a JavaScript function to calculate the sum of two numbers. 
     let ans;
     function addTwoNumber(number1,number2){
         return number1+number2;
     }
-    ans = addTwoNumber(1,3)
-
-    let answerDiv = document.querySelector('.answer')
-    showoutput = (ans) => {
-        answerDiv.textContent = ans;
-}
-
-showoutput(ans);
-console.log("outPut : ",ans);
-
+    // ans = addTwoNumber(1,3)
 
 
 // 2. Write a JavaScript program to find the maximum number in an array. 
-//     function findMaxNumber(numberArray){
-//     return Math.max(...numberArray) //spread operator
-//     }
-//     ans =findMaxNumber([1,4,5])
+    function findMaxNumber(numberArray){
+    return Math.max(...numberArray) //spread operator
+    }
+    // ans =findMaxNumber([1,4,5])
 
+
+        
+
+console.log("outPut : ",ans);
